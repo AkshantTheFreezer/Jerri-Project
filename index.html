@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+		<title>User Systems</title>
+		<link rel="stylesheet" type="text/css" href="./css/main.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-k2/8zcNbxVIh5mnQ52A0r3a6jAgMGxFJFE2707UxGCk= sha512-ZV9KawG2Legkwp3nAlxLIVFudTauWuBpC10uEafMHYL0Sarrz5A7G79kXh5+5+woxQ5HM559XX2UZjMJ36Wplg==" crossorigin="anonymous">
+		<script src="./js/main.js"></script>
+
+	</head>
+
+	<body>
+
+		<nav>
+
+			<div id="nav-inner">
+
+				<input id="menu-open-trigger" type="submit" name="menu-open-trigger" onclick="ToggleLeftNavVisible()">
+				<label for="menu-open-trigger"><span class="fa fa-bars"></span></label>
+
+				<div id="search">
+
+					<input type="text" id="search-bar" placeholder="Search...">
+
+					<button id="search-commence">
+
+						<img src="https://maxcdn.icons8.com/iOS7/PNG/25/Very_Basic/search_filled-25.png" width="10">
+
+					</button>
+
+				</div>
+
+				<div id="left-menu-others">
+
+					<a href="./settings" class="fa fa-cog"></a>
+					<div class="side-hr"></div>
+					<a href="./profile" class="fa fa-user"></a>
+
+				</div>
+
+			</div>
+
+		</nav>
+
+		<nav id="nav-left">
+
+			<div id="left-nav-options">
+
+				<a id="home" href="home"><span class="fa fa-home"></span> Home</a>
+				<a id="profile" href="./profile"><span class="fa fa-user"></span> Profile</a>
+				<a id="friends" href="./friends"><span class="fa fa-users"></span> Friends</a>
+				<a id="messages" href="./inbox"><span class="fa fa-envelope"></span> Messages</a>
+				<a id="news" href="./news"><span class="fa fa-newspaper-o"></span> News</a>
+
+			</div>
+
+			<a id="signout" href="./signout"><span class="fa fa-arrow-right"></span>Sign Out</a>
+
+		</nav>
+
+		<div class="feed">
+
+			<h1>My Feed</h1>
+
+			<div class="post">
+
+				<div class="top-stuff">
+
+					<div class="user-info">
+
+						<img src="http://unsplash.it/50/50/?random" class="user-photo">
+						<span class="post-user-name">Francis</span>
+
+					</div>
+
+					<span class="post-time">10/30/10, 9:12:23</span>
+
+				</div>
+
+				<span class="contents">Why do I smell like my dead dog? Help!</span>
+
+				<div class="other-users">
+
+					<span class="likes"><span class="fa fa-heart"></span> 1337 loves</span>
+					<span class="shares"><span class="fa fa-share"></span> 333 shares</span>
+					<span class="comments"><span class="fa fa-comment-o"></span> 0 comments</span>
+
+				</div>
+
+			</div>
+
+			<div class="post">
+
+				<div class="top-stuff">
+
+					<div class="user-info">
+
+						<img src="http://unsplash.it/51/51/?random" class="user-photo">
+						<span class="post-user-name">Travis</span>
+
+					</div>
+
+					<span class="post-time">10/30/10, 5:33:05</span>
+
+				</div>
+
+				<span class="contents">I like flexbox, it's pretty cool!</span>
+
+				<div class="other-users">
+
+					<span class="likes"><span class="fa fa-heart"></span> 900 loves</span>
+					<span class="shares"><span class="fa fa-share"></span> 123 shares</span>
+					<span class="comments"><span class="fa fa-comment-o"></span> 1 comments</span>
+
+				</div>
+
+			</div>
+
+			<div class="post">
+
+				<div class="top-stuff">
+
+					<div class="user-info">
+
+						<img src="http://unsplash.it/52/52/?random" class="user-photo">
+						<span class="post-user-name">Derek</span>
+
+					</div>
+
+					<span class="post-time">10/30/10, 4:53:33</span>
+
+				</div>
+
+				<span class="contents">"How to Code an Andriod App pt. 36" is to come out today! Yay!</span>
+
+				<div class="other-users">
+
+					<span class="likes"><span class="fa fa-heart"></span> 345 loves</span>
+					<span class="shares"><span class="fa fa-share"></span> 33 shares</span>
+					<span class="comments"><span class="fa fa-comment-o"></span> -0 comments</span>
+
+				</div>
+
+			</div>
+
+			<div class="post">
+
+				<div class="top-stuff">
+
+					<div class="user-info">
+
+						<img src="http://unsplash.it/53/53/?random" class="user-photo">
+						<span class="post-user-name">Linus</span>
+
+					</div>
+
+					<span class="post-time">10/30/10, 2:43:22</span>
+
+				</div>
+
+				<span class="contents">Everyone hates my voice :(</span>
+
+				<div class="other-users">
+
+					<span class="likes"><span class="fa fa-heart"></span> 222 loves</span>
+					<span class="shares"><span class="fa fa-share"></span> 334 shares</span>
+					<span class="comments"><span class="fa fa-comment-o"></span> 99999999999 comments</span>
+
+				</div>
+			</div>
+			<button class="load-more" style="">Load More</button>
+		</div>
+
+	</body>
+
+</html>

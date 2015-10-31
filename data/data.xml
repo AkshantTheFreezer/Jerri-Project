@@ -1,0 +1,30 @@
+<data>
+
+	<users>
+
+		<user>
+
+			<identification>
+
+				<username>MrNinjaFart</username>
+				<userid>1</userid>
+
+			</identification>
+
+			<joindate>October 30, 2015</joindate>
+
+			<firstname>Johnathan</firstname>
+			<lastname>Fart</lastname>
+			
+			<extra>
+
+				<catchphrase>An optimist sees a cup as half full, a pessismist sees a cup as half empty, an engineer sees a cup as two times too large.</catchphrase>
+				<middlename>Ninja</middlename>
+
+			</extra>
+
+		</user>
+
+	</users>
+
+</data>
